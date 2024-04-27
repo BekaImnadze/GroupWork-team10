@@ -176,3 +176,87 @@ $doctorCard = [
         ]
     ],
 ];
+
+
+// slider section
+
+
+$sliderSection = '<section class="slider_section">
+    <div class="dot_design">
+        <img src="images/dots.png" alt="">
+    </div>
+    <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">';
+
+$carouselControls = '</div>
+    <div class="carousel_btn-box">
+        <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
+            <img src="images/prev.png" alt="">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+            <img src="images/next.png" alt="">
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+</section>';
+
+
+$slides = [
+    [
+        'heading' => 'Mico',
+        'subheading' => 'Hospital',
+        'paragraph' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
+        'image' => 'images/slider-img.jpg',
+        'link' => '#'
+    ],
+    [
+        'heading' => 'Mico',
+        'subheading' => 'Hospital',
+        'paragraph' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
+        'image' => 'images/slider-img.jpg',
+        'link' => '#'
+    ],
+    [
+        'heading' => 'Mico',
+        'subheading' => 'Hospital',
+        'paragraph' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
+        'image' => 'images/slider-img.jpg',
+        'link' => '#'
+    ]
+];
+
+
+// testimonial
+
+$testimonialcarousel = [
+    [
+        'main-title' => ' Morijorch',
+        'title' => 'Default model text',
+        'text' => 'editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will
+                   uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their
+                   default model text, and a search for lorem ipsum will uncover many web sites still in
+                   their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search
+                   for lorem ipsum will uncover many web sites still in their infancy. Various',
+    ],
+    [
+        'main-title' => 'Rochak',
+        'title' => 'Default model text',
+        'text' => 'Variouseditors now use Lorem Ipsum as their default model text, and a search for lorem
+                   ipsum will uncover many web sites still in their infancy. Variouseditors now use Lorem
+                   Ipsum as their default model text, and a search for lorem ipsum will uncover many web
+                   sites still in their infancy. editors now use Lorem Ipsum as their default model text, and
+                   a search for lorem ipsum will uncover many web sites still in their infancy.',
+    ],
+    [
+        'main-title' => 'Brad Johns',
+        'title' => 'Default model text',
+        'text' => 'Variouseditors now use Lorem Ipsum as their default model text, and a search for lorem
+                   ipsum will uncover many web sites still in their infancy, editors now use Lorem Ipsum as
+                   their default model text, and a search for lorem ipsum will uncover many web sites still
+                   in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a
+                   search for lorem ipsum will uncover many web sites still in their infancy. Various',
+    ],
+];
+
