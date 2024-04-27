@@ -27,7 +27,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../images//TabIcon.png" type="image/x-icon">
   <?php include "./functions/function.php"; ?>
   <?php include "./array/array.php"; ?>
   <?php include "./functions/small-function.php"; ?>
