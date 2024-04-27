@@ -1,8 +1,6 @@
 <div class="container">
       <div class="heading_container">
-        <h2>
-          Get In Touch
-        </h2>
+      <?php myH2("Get In Touch"); ?>
       </div>
       <div class="row">
         <div class="col-md-7">
