@@ -53,7 +53,7 @@
                 <a href="index.php">
                   Home
                 </a>
-                <a class="active" href="about.php">
+                <a class="" href="about.php">
                   About
                 </a>
                 <a href="treatment.php">
