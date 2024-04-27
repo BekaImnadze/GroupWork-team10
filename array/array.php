@@ -111,102 +111,68 @@ $doctorCard = [
         "name"=> "Henry",
         "specialization" => "MBBS",
         "social" => [
-                [
-                    "icon" => "fa fa-facebook",
-                    "link" => "https://www.facebook.com"
-                ],
-                [
-                    "icon" => "fa fa-twitter",
-                    "link" => "https://www.twitter.com"
-                ],
-                [
-                    "icon" => "fa fa-linkedin",
-                    "link" => "https://www.linkedin.com"
-                ],
-                [
-                    "icon" => "fa fa-instagram",
-                    "link" => "https://www.instagram.com"
-                ],
-            ]
-        ],
+            [
+                "icon" => "fa fa-facebook",
+                "link" => "https://www.facebook.com"
+            ],
+            [
+                "icon" => "fa fa-twitter",
+                "link" => "https://www.twitter.com"
+            ],
+            [
+                "icon" => "fa fa-linkedin",
+                "link" => "https://www.linkedin.com"
+            ],
+            [
+                "icon" => "fa fa-instagram",
+                "link" => "https://www.instagram.com"
+            ],
+        ]
+    ],
     [
-            "img" => "images/team2.jpg",
-            "name"=> "Jenny",
-            "specialization" => "MBBS",
-            "social" => [
-                    [
-                        "icon" => "fa fa-facebook",
-                        "link" => "https://www.facebook.com"
-                    ],
-                    [
-                        "icon" => "fa fa-twitter",
-                        "link" => "https://www.twitter.com"
-                    ],
-                    [
-                        "icon" => "fa fa-linkedin",
-                        "link" => "https://www.linkedin.com"
-                    ],
-                    [
-                        "icon" => "fa fa-instagram",
-                        "link" => "https://www.instagram.com"
-                    ],
-                ]
+        "img" => "images/team2.jpg",
+        "name"=> "Jenny",
+        "specialization" => "MBBS",
+        "social" => [
+            [
+                "icon" => "fa fa-facebook",
+                "link" => "https://www.facebook.com"
             ],
-        [
-                "img" => "images/team3.jpg",
-                "name"=> "Marco",
-                "specialization" => "MBBS",
-                "social" => [
-                    [
-                        "icon" => "fa fa-facebook",
-                        "link" => "https://www.facebook.com"
-                    ],
-                    [
-                        "icon" => "fa fa-twitter",
-                        "link" => "https://www.twitter.com"
-                    ],
-                    [
-                        "icon" => "fa fa-linkedin",
-                        "link" => "https://www.linkedin.com"
-                    ],
-                    [
-                        "icon" => "fa fa-instagram",
-                        "link" => "https://www.instagram.com"
-                    ],
-                ]
+            [
+                "icon" => "fa fa-twitter",
+                "link" => "https://www.twitter.com"
             ],
-]
-?>
-
-               
-
-
-
-
-
-
-
-
-
-            <!-- for ($i = 0; $i < sizeof($aboutInfo); $i++) {
-              echo '
-              <div class="col-md-6 col-lg-3">
-                <div class="info_post">
-                  <h5>' . $aboutInfo[$i]['h5'] . '</h5>
-                  <div class="post_box">
-                    <div class="img-box">
-                      <img src="' . $aboutInfo[$i]['img'] . '" alt="image">
-                    </div>
-                    <p>' . $aboutInfo[$i]['h5'] . '</p>
-                  </div>
-                  <div class="post_box">
-                    <div class="img-box">
-                      <img src="' . $aboutInfo[$i]['img-2'] . '" alt="image">
-                    </div>
-                    <p>' . $aboutInfo[$i]['h5'] . '</p>
-                  </div>
-                </div>
-              </div>
-              ';
-            }
-          ?> -->
+            [
+                "icon" => "fa fa-linkedin",
+                "link" => "https://www.linkedin.com"
+            ],
+            [
+                "icon" => "fa fa-instagram",
+                "link" => "https://www.instagram.com"
+            ],
+        ]
+    ],
+    [
+        "img" => "images/team3.jpg",
+        "name"=> "Marco",
+        "specialization" => "MBBS",
+        "social" => [
+            [
+                "icon" => "fa fa-facebook",
+                "link" => "https://www.facebook.com"
+            ],
+            [
+                "icon" => "fa fa-twitter",
+                "link" => "https://www.twitter.com"
+            ],
+            [
+                "icon" => "fa fa-linkedin",
+                "link" => "https://www.linkedin.com"
+            ],
+            [
+                "icon" => "fa fa-instagram",
+                "link" => "https://www.instagram.com"
+            ],
+        ]
+    ],
+];

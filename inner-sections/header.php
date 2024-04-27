@@ -4,9 +4,9 @@
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
+  <!-- Mobile Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
+  <!-- Site Meta -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -35,7 +35,7 @@
 
 <body class="sub_page">
   <div class="hero_area">
-    <!-- header section strats -->
+    <!-- header section starts -->
     <header class="header_section">
       <div class="header_top">
         <div class="container">
@@ -45,9 +45,10 @@
             do {
               echo 
               '
-              <li class="nav-item active">
-                <a class="nav-link" href="' . $contactNav[$i]["link"] . '">' . $contactNav[$i]["text"] . ' <span class="sr-only">(current)</span></a>
-              </li>
+              <a href="">
+                <i class="' . $contactNav[$i]['link'] . '" aria-hidden="true"></i>
+                <span>' . $contactNav[$i]['text'] . '</span>
+              </a>
               '; 
               $i++;
             } while ($i < sizeof($contactNav))

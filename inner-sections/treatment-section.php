@@ -12,22 +12,22 @@
                 case 1:
                     $title = "Nephrologist Care";
                     $img_src = "images/t1.png";
-                    $description = "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything";
+                    $description = "alteration in some form, by injected humour, or randomized words which don't look even slightly e sure there isn't anything";
                     break;
                 case 2:
                     $title = "Eye Care";
                     $img_src = "images/t2.png";
-                    $description = "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything";
+                    $description = "alteration in some form, by injected humour, or randomized words which don't look even slightly e sure there isn't anything";
                     break;
                 case 3:
                     $title = "Pediatrician Clinic";
                     $img_src = "images/t3.png";
-                    $description = "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything";
+                    $description = "alteration in some form, by injected humour, or randomized words which don't look even slightly e sure there isn't anything";
                     break;
                 case 4:
                     $title = "Parental Care";
                     $img_src = "images/t4.png";
-                    $description = "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything";
+                    $description = "alteration in some form, by injected humour, or randomized words which don't look even slightly e sure there isn't anything";
                     break;
                 default:
                     $title = "";

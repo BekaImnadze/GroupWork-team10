@@ -2,7 +2,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/" target="_blank">Free Html Templates</a>
       </p>
     </div>
   </footer>
