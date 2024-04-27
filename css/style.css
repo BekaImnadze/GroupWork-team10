@@ -1130,3 +1130,13 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+#success-message {
+  color:green;
+  font-size: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-height: 100hv;
+}
