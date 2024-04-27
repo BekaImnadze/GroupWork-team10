@@ -1,98 +1,34 @@
 <div class="container">
       <div class="heading_container heading_center">
-        <h2>
-          Our <span>Doctors</span>
-        </h2>
+        <?php myH2("Our <span>Doctors</span>"); ?>
       </div>
       <div class="carousel-wrap ">
         <div class="owl-carousel team_carousel">
-          <div class="item">
+      <?php
+      foreach ($doctorCard as $doctor) {
+        echo '
+        <div class="item">
             <div class="box">
-              <div class="img-box">
-                <img src="images/team1.jpg" alt="" />
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Henry
-                </h5>
-                <h6>
-                  MBBS
-                </h6>
-                <div class="social_box">
-                  <a href="">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
+                <div class="img-box">
+                    <img src="' . $doctor['img'] . '" alt="" />
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/team2.jpg" alt="" />
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Jenny
-                </h5>
-                <h6>
-                  MBBS
-                </h6>
-                <div class="social_box">
-                  <a href="">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
+                <div class="detail-box">
+                    <h5>' . $doctor['name'] . '</h5>
+                    <h6>' . $doctor['specialization'] . '</h6>
+                    <div class="social_box">'; 
+        foreach ($doctor['social'] as $social) {
+            echo '
+                        <a href="' . $social['link'] . '" target="_blank">
+                            <i class="' . $social['icon'] . '" aria-hidden="true"></i>
+                        </a>';
+        }
+        echo '
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/team3.jpg" alt="" />
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Marco
-                </h5>
-                <h6>
-                  MBBS
-                </h6>
-                <div class="social_box">
-                  <a href="">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>';
+    }
+      ?>
         </div>
       </div>
     </div>
