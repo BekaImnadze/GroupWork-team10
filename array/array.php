@@ -260,3 +260,41 @@ $testimonialcarousel = [
     ],
 ];
 
+$usefullLink =[
+    
+    [
+        "link" => "index.php",
+        "text" => "Home",
+    ],
+    [
+        "link" => "about.php",
+        "text" => "About",
+    ],
+    [
+        "link" => "treatment.php",
+        "text" => "Treatment",
+    ],
+    [
+        "link" => "doctor.php",
+        "text" => "Doctors",
+    ],
+    [
+        "link" => "testimonial.php",
+        "text" => "Testimonial",
+    ],
+    [
+        "link" => "contact.php",
+        "text" => "Contact us",
+    ],
+];
+
+$postBox = [
+    [
+        "image" => "images/post3.jpg",
+        "text" => "Normal distribution",
+    ],
+    [
+        "image" => "images/post4.jpg",
+        "text" => "Normal distribution",
+    ],
+];
