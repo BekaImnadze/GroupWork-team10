@@ -14,20 +14,20 @@
                     <option value="Could you please tag a Doctor !!!">DOCTOR</option>
                     <option value="Dr. Fati ">Dr. Fati Todua </option>
                     <option value="Dr. Temo ">Dr. Temo Gigauri  </option>
-                    <option value="Dr. Beqa ">Dr. Beka Imnadze  </option>
-                    <option value="Dr. Beqa ">Dr. Madlena Bokuchava  </option>
-                    <option value="Dr. Beqa ">Dr. Guga kobakhidze  </option>
+                    <option value="Dr. Beka ">Dr. Beka Imnadze  </option>
+                    <option value="Dr. Madlena ">Dr. Madlena Bokuchava  </option>
+                    <option value="Dr. Guga ">Dr. Guga kobakhidze  </option>
 
                 </select>
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputDepartmentName">Department's Name</label>
                 <select name="department" class="form-control wide" id="inputDepartmentName">
-                    <option value="Normal distribution ">Pediatrics </option>
+                    <option value="Pediatrics ">Pediatrics </option>
                     <option value="Hospital Department">Surgery</option>
-                    <option value="Normal distribution ">Otorhinolaryngology </option>
-                    <option value="Normal distribution ">Plastic surgery</option>
-                    <option value="Normal distribution ">Ginecology</option>
+                    <option value="Otorhinolaryngology">Otorhinolaryngology </option>
+                    <option value="Plastic surgery">Plastic surgery</option>
+                    <option value="Ginecology">Ginecology</option>
 
                 </select>
               </div>
