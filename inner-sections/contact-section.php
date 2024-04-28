@@ -1,8 +1,6 @@
     <div class="container">
       <div class="heading_container">
-        <h2>
-          Get In Touch 
-        </h2>
+        <?php myH2("Get In Touch"); ?>
       </div>
       <div class="row">
         <div class="col-md-7">
@@ -21,7 +19,7 @@
                 <input type="text"  name="message"  class="message-box" placeholder="Message" />
               </div>
               <div class="btn_box">
-                <button type=">submit">
+                <button type="submit">
                   SEND
                 </button>
               </div>

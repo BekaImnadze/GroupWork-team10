@@ -25,3 +25,6 @@ function myBtn($content) {
     echo '<button>' . $content . '</button>';
 };
 
+function myH4($content) {
+    echo '<h4>' . $content . '</h4>';
+};

@@ -1,9 +1,7 @@
 <footer class="footer_section">
     <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/" target="_blank">Free Html Templates</a>
-      </p>
+      <?php myP(' &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/" target="_blank">Free Html Templates</a>');?>
     </div>
   </footer>
   

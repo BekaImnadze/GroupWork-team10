@@ -108,4 +108,11 @@ function Testimonial($testimonialcarousel)
     return $testimonialcarousel;
 }
 
-
+function myUsfullLinks ($array) {
+    foreach ($array as $link) {
+      echo 
+      '
+      <a href="' . $link['link'] . '">' . $link['text'] . '</a>
+      '; 
+    }
+  }

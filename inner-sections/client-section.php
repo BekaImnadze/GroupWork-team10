@@ -1,6 +1,6 @@
 <div class="container">
          <div class="heading_container">
-             <h2><span> Testimonial </span></h2>
+             <?php myH2("<span> Testimonial </span>"); ?>
          </div>
      </div>
      <div class="container px-0">

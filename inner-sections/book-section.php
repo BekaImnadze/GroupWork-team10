@@ -2,9 +2,7 @@
       <div class="row">
         <div class="col">
           <form action="functions/appoitment.php" method="post">
-            <h4>
-              BOOK <span>APPOINTMENT</span>
-            </h4>
+           <?php myH4("BOOK <span>APPOINTMENT</span>"); ?>
             <div class="form-row ">
               <div class="form-group col-lg-4">
                 <label for="inputPatientName">Patient Name </label>
@@ -14,17 +12,23 @@
                 <label for="inputDoctorName">Doctor's Name</label>
                 <select name="doctor" class="form-control wide" id="inputDoctorName">
                     <option value="Could you please tag a Doctor !!!">DOCTOR</option>
-                    <option value="Dr. Fati ">Dr. Fati </option>
-                    <option value="Dr. Temo ">Dr. Temo  </option>
-                    <option value="Dr. Beqa ">Dr. Beqa  </option>
+                    <option value="Dr. Fati ">Dr. Fati Todua </option>
+                    <option value="Dr. Temo ">Dr. Temo Gigauri  </option>
+                    <option value="Dr. Beqa ">Dr. Beka Imnadze  </option>
+                    <option value="Dr. Beqa ">Dr. Madlena Bokuchava  </option>
+                    <option value="Dr. Beqa ">Dr. Guga kobakhidze  </option>
+
                 </select>
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputDepartmentName">Department's Name</label>
                 <select name="department" class="form-control wide" id="inputDepartmentName">
-                    <option value="Normal distribution ">Normal distribution </option>
-                    <option value="Hospital Department"> Hospital Department</option>
-                  <option value="Normal distribution ">Normal distribution </option>
+                    <option value="Normal distribution ">Pediatrics </option>
+                    <option value="Hospital Department">Surgery</option>
+                    <option value="Normal distribution ">Otorhinolaryngology </option>
+                    <option value="Normal distribution ">Plastic surgery</option>
+                    <option value="Normal distribution ">Ginecology</option>
+
                 </select>
               </div>
             </div>
