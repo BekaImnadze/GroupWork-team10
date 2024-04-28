@@ -1,25 +1,27 @@
-<div class="container">
+    <div class="container">
       <div class="heading_container">
-      <?php myH2("Get In Touch"); ?>
+        <h2>
+          Get In Touch 
+        </h2>
       </div>
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
-            <form action="">
+            <form action="functions/getintouch.php" method="post">
               <div>
-                <input type="text" placeholder="Full Name" />
+                <input type="text"  name="username"  placeholder="Full Name" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email"  name="email"  placeholder="Email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="number"  name="pone"  placeholder="Phone Number" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text"  name="message"  class="message-box" placeholder="Message" />
               </div>
               <div class="btn_box">
-                <button>
+                <button type=">submit">
                   SEND
                 </button>
               </div>

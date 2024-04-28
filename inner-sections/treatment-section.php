@@ -1,4 +1,4 @@
-<div class="side_img">
+    <div class="side_img">
       <img src="images/treatment-side-img.jpg" alt="">
     </div>
     <div class="container">
