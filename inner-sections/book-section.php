@@ -6,7 +6,7 @@
             <div class="form-row ">
               <div class="form-group col-lg-4">
                 <label for="inputPatientName">Patient Name </label>
-                <input type="text" class="form-control" name ="name" id="inputPatientName" placeholder="">
+                <input type="text" class="form-control" name ="name" id="inputPatientName" placeholder="" required>
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputDoctorName">Doctor's Name</label>
@@ -35,11 +35,11 @@
             <div class="form-row ">
               <div class="form-group col-lg-4">
                 <label for="inputPhone">Phone Number</label>
-                <input type="number" name="pohne" class="form-control" id="inputPhone" placeholder="XXXXXXXXXX">
+                <input type="number" name="pohne" class="form-control" id="inputPhone" placeholder="XXXXXXXXXX" required>
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputSymptoms">Symptoms</label>
-                <input type="text"  name="inputSymptoms" class="form-control" id="inputSymptoms" placeholder="">
+                <input type="text"  name="inputSymptoms" class="form-control" id="inputSymptoms" placeholder="" required>
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputDate">Choose Date </label>
