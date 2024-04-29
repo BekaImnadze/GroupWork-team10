@@ -7,16 +7,16 @@
           <div class="form_container">
             <form action="functions/getintouch.php" method="post">
               <div>
-                <input type="text"  name="username"  placeholder="Full Name" />
+                <input type="text"  name="username"  placeholder="Full Name" required>
               </div>
               <div>
-                <input type="email"  name="email"  placeholder="Email" />
+                <input type="email"  name="email"  placeholder="Email" required/>
               </div>
               <div>
-                <input type="number"  name="pone"  placeholder="Phone Number" />
+                <input type="number"  name="pone"  placeholder="Phone Number" required/>
               </div>
               <div>
-                <input type="text"  name="message"  class="message-box" placeholder="Message" />
+                <input type="text"  name="message"  class="message-box" placeholder="Message" required/>
               </div>
               <div class="btn_box">
                 <button type="submit">
